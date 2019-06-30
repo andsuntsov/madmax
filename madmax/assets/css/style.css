@@ -158,9 +158,10 @@ label {
 	border-radius: 10px;
 	background-color: #1f1f1f;
 	color: #fff;
-	height: 600px;
-	min-height: 200px;
+	height: auto;
+	min-height: 600px;
 	overflow-x: auto;
+	padding-bottom: 30px;
 }
 
 .gallery img {
@@ -253,6 +254,8 @@ footer {
 	.services {
 		width: 90%;
 		margin-left: 5%;
+		height: auto;
+		min-height: 300px;
 	}
 
 	.services img {
