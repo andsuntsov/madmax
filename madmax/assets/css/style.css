@@ -53,10 +53,21 @@ nav a:hover {
 	color: #FF4500;
 }
 
+span a {
+	color: orange;
+}
+
+span a:hover {
+	color: #FF4500;
+}
+
+.logo {
+	margin-left: 20%;
+}
+
 .headline {
 	font-size: 3em;
 	color: orange;
-	margin-left: 20%;
 }
 
 .headline:hover {
@@ -65,7 +76,6 @@ nav a:hover {
 
 .tagline {
 	color: #fff;
-	margin-left: 20%;
 }
 
 .selected {
@@ -170,6 +180,8 @@ label {
 }
 
 .contacts {
+	width: 90%;
+	margin-left: 5%;
 	text-align: center;
 	font-size: 1.2em;
 }
@@ -209,11 +221,15 @@ footer {
 	margin-right: 20%;
 }
 
+.socialNotIco {
+	display: none;
+}
+
 @media (min-width: 300px) and (max-width: 799px) {
 	
 	nav{
 		float: left;
-		margin-left: 40%;
+		margin-left: 5%;
 	}
 
 	nav li {
@@ -221,15 +237,68 @@ footer {
 		display: block;
 	}
 
+	label, input, textarea {
+	margin-left: 10%;
+	width: 80%;
+	}
+
+	iframe {
+		width: 100%;
+	}
+
+	.services {
+		width: 90%;
+		margin-left: 5%;
+	}
+
 	.services img {
 		width: 90%;
 		margin-left: 5%; 
 	}
+
+	.services h1 {
+		font-size: 2em;
+	}
+
+	.services li {
+		font-size: 1.4em;
+		margin-left: 10%;
+	}
+
+	.social {
+		display: none;
+	}
+
+	.socialNotIco {
+		display: block;
+		vertical-align: middle;
+		float: right;
+		color: white;
+		margin-right: 5%;
+	}
+
+	.rights {
+		margin-left: 5%;
+	}
 }
 
 @media (min-width: 800px) and (max-width: 1330px) {
+
+	label, input, textarea {
+	margin-left: 20%;
+	width: 60%;
+	}
+
 	.services img {
 		width: 40%;
 		margin-left: 5%; 
+	}
+
+	.socialNotIco {
+	display: none;
+	}
+
+	.services li {
+		margin-left: 10%;
 	}
 }
