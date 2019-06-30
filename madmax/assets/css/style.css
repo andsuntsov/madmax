@@ -245,6 +245,10 @@ footer {
 	iframe {
 		width: 100%;
 	}
+	
+	.logo {
+		margin-left: 15%;
+	}
 
 	.services {
 		width: 90%;
