@@ -11,7 +11,7 @@ body {
 /* header */
 
 header {
-	background-color: #1f1f1f;
+	background: linear-gradient(to right, #000, #434343);
 	float: left;
 	width: 98%;
 	padding: 20px 1% 0;
@@ -201,7 +201,7 @@ label {
 /* footer */
 
 footer {
-	background-color: #1f1f1f;
+	background: linear-gradient(to right, #000, #434343);
 	float: left;
 	width: 98%;
 	min-height: 30px;
